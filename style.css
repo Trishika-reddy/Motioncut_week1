@@ -1,0 +1,438 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+body{
+    background-color: rgb(196, 254, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar nav{
+    padding: 50px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(196, 254, 255);
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.sidebar nav li a:hover{
+    text-decoration: none;
+    color: rgb(196, 254, 255);
+    font-family: 'Red Hat Display', sans-serif;
+    text-shadow: 2px 2px 4px rgb(196, 254, 255);
+    
+}
+.main{
+    background-color: rgb(196, 254, 255);
+    color:rgb(46, 139, 181);;
+    width: 85vw;
+    padding-left: 20px;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+    position: relative;
+    border-radius: 20px;
+    /* background-color: rgb(112, 52, 64); */
+    background-color:rgb(46, 139, 181);
+    height: 70vh;
+    width: 70vw;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 10px 0 black inset;
+    
+    
+
+}
+.infoContainer:hover{
+    box-shadow: 0 12px 16px 0 black;
+}
+
+.containert{
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    border-bottom: 2px solid #58555568;
+}
+.list{
+    padding: 5vh;
+}
+
+.list *{
+    width: 100%;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+.mypic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mypic img{
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(196, 254, 255);
+    
+}
+.mydesc{
+    color: rgb(196, 254, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    /* align-items: center; */
+}
+.buttons{
+    margin-top: 20px;
+
+
+}
+.hello{
+    font-size: 40px;
+}
+.hello2{
+    font-size: 40px;
+    text-shadow: 2px 8px 8px black;
+    
+}
+.about{
+    font-size: 40px;
+    text-shadow: 2px 8px 8px black;
+}
+.hello3,.multitext{
+    font-size: 30px;
+    text-shadow: 2px 8px 8px black;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.multitext{
+    font-size: 40px ;
+}
+.buttons button{
+    padding:10px 15px;
+    border-radius: 20px;
+    color: rgb(2, 103, 116);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.buttons button:hover{
+    box-shadow: 0 5px 8px 0 rgb(196, 254, 255);
+    background-color:darkgray;
+
+}
+.xyz{
+    font-size: larger;
+}
+.form_style {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #4c98e9;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  .form_style:focus, .btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #4ce9d7;
+  }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+table{
+    padding: 20px;
+    border-spacing: 30px;
+    text-align: center;
+}
+table td{
+
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    float: left;
+    font-weight: bold;
+}
+table td a{
+    text-decoration: none;
+    color: rgb(46, 139, 181);;
+    font-family: 'Red Hat Display', sans-serif;
+    float: left;
+    font-weight: bold;
+}
+.image:hover{
+    box-shadow: 0 8px 5px 0 black;
+    
+}
+
+#emailHelp{
+    font-size: 10px;
+    margin: 0 5px;
+    padding: 3px 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+}
+.btn{
+    padding:10px 15px;
+    border-radius: 20px;
+    color: rgb(196, 254, 255);
+    background-color:rgb(46, 139, 181);
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.btn:hover{
+    color:rgb(46, 139, 181);
+    background-color:darkgray;
+    border: 2px solid rgb(46, 139, 181);
+    
+}
+.infoContainer2{
+    border-radius: 20px;
+    padding-top: 20px;
+    word-spacing: 6px;
+    background-color: rgb(46, 139, 181);
+    color: rgb(196, 254, 255);
+    height: 70vh;
+    width: 70vw;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 100px auto;
+    padding-left: 25px;
+    padding-right: 20px;
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 10px 0 black inset;
+
+}
+.infoContainer2:hover{
+    box-shadow: 0 12px 16px 0 black;
+}
+.infoContainer2 h1,h2{
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.infoContainer2 h1:hover,h2:hover{
+    
+    
+    text-shadow: 2px 2px 4px rgb(196, 254, 255);
+
+}
+.infoContainer3{
+    border-radius: 20px;
+    padding-top: 20px;
+    word-spacing: 6px;
+    background-color: rgb(46, 139, 181);
+    color: rgb(196, 254, 255);
+    height: 70vh;
+    width: 30vw;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 100px auto;
+    padding-left: 25px;
+    padding-right: 20px;
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 10px 0 black inset;
+
+}
+.infoContainer3:hover{
+    box-shadow: 0 12px 16px 0 black;
+}
+.infoContainer3 h1,h2{
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.infoContainer3 h1:hover,h2:hover{
+    
+    
+    text-shadow: 2px 2px 4px rgb(196, 254, 255);
+
+}
+.skillcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.skill1{
+    padding-left: 25px;
+    padding-right: 200px;
+    
+}
+
+.skill1 ul li,.skill2 ul li{
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.skill1 ul li:hover,.skill2 ul li:hover{
+    transition:ease-in ;
+    cursor: pointer;
+    border-bottom: 3px solid aqua;
+
+}
+.sidebarGo{
+    transform: translate(-450px,0px);
+    position: absolute;
+    
+
+}
+
+@media(max-width:300px) {
+    .infoContainer{
+        width: 10vw;
+    }
+    .sidebar{
+        display: none;
+    }
+    .mypic{
+        display: none;
+    }
+    .infoContainer2,.contactform{
+        margin: 0px 8px;
+    }
+    
+}
+
+.menubtn{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+div.scroll-container img {
+    padding: 10px;
+  }
+.container {
+    position: relative;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+  
+.container .content {
+    position: absolute;
+    top: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 87%;
+    padding: 20px;
+}
+
+.cross{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+.cross:hover{
+    box-shadow: 2px 2px 4px rgb(196, 254, 255);
+}
+.menu{
+    margin-top: 10px;
+}
+.lanim{
+    width:150px;
+    height:150px;
+}
+.menu:hover{
+    box-shadow: 2px 2px 4px rgb(46, 139, 181);
+}
+.projectcontainer
+{
+    height: 500px;
+    width: 1200px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.projectcontainer h1{
+    text-shadow: 10px 4px 10px black;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.project{
+    margin-top: 35px;
+    height: 400px;
+    background-color:rgb(46, 139, 181);
+    color: rgb(196, 254, 255);
+    padding: 15px;
+    margin-right: 30px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 10px 0 black inset;
+
+}
+.project p{
+    color: rgb(196, 254, 255);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 50px;
+    
+}
+.project:hover{
+    box-shadow: 0 12px 16px 0 black;
+    
+}
+.sidebar{
+    position: relative;
+    background-color: rgb(46, 139, 181);
+    color: rgb(44, 106, 121);
+    width: 250px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar:hover{
+    box-shadow: 0 12px 16px 0 black;
+}
